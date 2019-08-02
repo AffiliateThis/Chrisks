@@ -9,7 +9,7 @@ class App extends Component {
         <Layout>
           <Header title="Title" scroll>
             <Navigation>
-              <a href="/">Link</a>
+              <a href="/resume">Resume</a>
               <a href="/">Link</a>
               <a href="/">Link</a>
               <a href="/">Link</a>
