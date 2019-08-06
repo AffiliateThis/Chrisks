@@ -26,6 +26,36 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.Logo {
-  background-image: url("https://icons-for-free.com/iconfiles/png/512/business+costume+male+man+office+user+icon-1320196264882354682.png");
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 66px;
+  text-align: center;
+}
+
+.banner-text hr {
+  border-top: 5px dotted whitesmoke;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  padding: 1em;
+
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
 }
