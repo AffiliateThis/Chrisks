@@ -18,7 +18,30 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />
-              <p> HTML/CSS | Bootstrap | Javascript | React | Express | MongoDB | NodeJs | </p>
+              <p>
+                {" "}
+                HTML/CSS | Bootstrap | Javascript | React | Express | MongoDB |
+                NodeJs |{" "}
+              </p>
+              <div className=" social-links">
+                {/* LinkedIn */}
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square" arial-hidden="true" />
+                </a>
+
+                {/* Github */}
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github-square" arial-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
