@@ -118,35 +118,30 @@ class Projects extends Component {
               color: "#fff",
               height: "176px",
               background:
-                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564031881/relay%20estimator/chart_screenshot_ooamkj.png) center / cover"
+                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564067843/relay%20estimator/BOAT_Systems_Demo_pic_mozhto.png) center / cover"
             }}
           >
-            React Project
+            Javascript
           </CardTitle>
           <CardText>
-            In this project, the team created an app that helps
-            designers/developers provide cost estimates/forecasts based on each
-            task per project. Once a project is added, the total cost of each
-            task is calculated, based on the estimated hrs of completion and
-            cost per hour. A Doughnut Chart beautifully displays tasks based on
-            the value and sums up the project total.
+            In this project, the team created an app that acts as a movable
+            bridge operation training simulator. Many times there are costly
+            repairs that must be administered for improperly operating a movable
+            bridge. This simulator provides a model of the steps for bridge
+            movement.
           </CardText>
           <CardActions border>
-            <Button
-              colored
-              href="https://salty-reef-43633.herokuapp.com"
-              target="_blank"
-            >
+            <Button colored href="http://bit.ly/2OqWRM0 " target="_blank">
               URL
             </Button>
             <Button
               colored
-              href="https://github.com/jmschindele/group_project_3"
+              href="https://github.com/josephedward/group-project-1"
               target="_blank"
             >
               Github
             </Button>
-            <Button colored href="http://bit.ly/2Ydgk2n" target="_blank">
+            <Button colored href="" target="_blank">
               Demo
             </Button>
           </CardActions>
