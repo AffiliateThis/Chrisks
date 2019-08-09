@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
+import Experience from "./experience";
+import Skills from "./skills";
 
 class Resume extends Component {
   render() {
@@ -39,8 +41,40 @@ class Resume extends Component {
             <p>chris.kautz@gmail.com</p>
             <h5>Website</h5>
             <p>chrisks.com</p>
-          </Cell>
-          <Cell className="resume-right-col" col={8}>
+
+        </Cell> 
+        <h2>Skills</h2>
+
+        <h4>Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS | Bootstrap | Media Queries | APIs | Microsoft Suite | Heroku | Google Apps | Mongoose |Sequelize | Chartjs | Cloudinary | Quickbooks
+</h4>
+
+        <hr style={{ borderTop: "3px solid #791dc1" }} />
+
+        <h2>Experience</h2>
+
+          <Experience 
+          startYear={}
+          endYear={}
+          jobName=""
+          jobDescription=""
+          />
+          <Experience 
+          startYear={}
+          endYear={}
+          jobName=""
+          jobDescription=""
+          />
+
+        <Experience 
+          startYear={}
+          endYear={}
+          jobName=""
+          jobDescription=""
+          />
+          <hr style={{ borderTop: "3px solid #791dc1" }} />
+
+
+       <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
             <Education
               startYear={2019}
@@ -53,10 +87,7 @@ class Resume extends Component {
               "
             />
 
-            <hr style={{borderTop: '3px solid #e22947'}}/>
-
-
-<Education
+            <Education
               startYear={1996}
               endYear={2000}
               schoolName="Hampden-Sydney College"
@@ -66,6 +97,10 @@ class Resume extends Component {
               MongoDB, Express, NodeJS and React. 
               "
             />
+            <hr style={{ borderTop: "3px solid #791dc1" }} />
+
+            
+
           </Cell>
         </Grid>
       </div>
