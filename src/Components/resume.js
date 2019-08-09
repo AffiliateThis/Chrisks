@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import { Grid, Cell, List, ListItem } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
@@ -24,7 +24,7 @@ class Resume extends Component {
             </h3>
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <p>
+            <p className="brandInfo">
               Team-oriented Web Developer with a background in digital marketing
               and customer acquisition, with Full-Stack Certification from the
               University of Richmond. Skilled in digital marketing tracking
@@ -41,42 +41,60 @@ class Resume extends Component {
             <p>chris.kautz@gmail.com</p>
             <h5>Website</h5>
             <p>chrisks.com</p>
+          </Cell>
 
-        </Cell> 
-        <h2>Skills</h2>
+          <Cell className="resume-right-col" col={8}>
+            <h2>Skills</h2>
 
-        <h4>Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS | Bootstrap | Media Queries | APIs | Microsoft Suite | Heroku | Google Apps | Mongoose |Sequelize | Chartjs | Cloudinary | Quickbooks
-</h4>
+            <h5>
+              Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT
+              | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS |
+              Bootstrap | Media Queries | APIs | Microsoft Suite | Heroku |
+              Google Apps | Mongoose |Sequelize | Chartjs | Cloudinary |
+              Quickbooks
+            </h5>
 
-        <hr style={{ borderTop: "3px solid #791dc1" }} />
+            <hr style={{ borderTop: "3px solid #791dc1" }} />
 
-        <h2>Experience</h2>
+            <h3>Experience</h3>
 
-          <Experience 
-          startYear={}
-          endYear={}
-          jobName=""
-          jobDescription=""
-          />
-          <Experience 
-          startYear={}
-          endYear={}
-          jobName=""
-          jobDescription=""
-          />
+            <Experience
+              className="description"
+              startYear={2018}
+              endYear={2019}
+              jobName="-One Crooked Tree | Co-founder/COO "
+              jobDescription="Successfully managed the day to day operations of a digital agency including clients’ projects and 
+          the operation of multiple SAS’s. Additionally, utilized Google Analytics and Tag Manager implementation/analysis for client 
+          base."
+              listItem=" - Effectively managed the Email Newsletter generation and deployment for publishers while tracking QA and pixel implementation. "
+              listItem2="- Usage and implementation providing better tracking potential of customers and client-management."
+              listItem3="- Successfully managed project site development build-outs for clients."
+              listItem4="- Management and execution of SEO campaigns for clients providing them with more customer acquisitions and opportunity.  Organic traffic to our client's sites doubled within two months."
+              listItem5="- Affiliate Program Launch Strategy and Management which significantly increased the number of sales for our clients."
+            />
 
-        <Experience 
-          startYear={}
-          endYear={}
-          jobName=""
-          jobDescription=""
-          />
-          <hr style={{ borderTop: "3px solid #791dc1" }} />
+            <Experience
+              className="description"
+              startYear={2017}
+              endYear={2019}
+              jobName="AC Nutryst | Co-founder/COO"
+              jobDescription="Effectively hired and trained contractors to fulfill internal initiatives;  while also configuring tracking platforms to proficiently track metrics and profits. Utilized Project Management to get assets built for clients and internal project site build-outs providing a more streamlined and efficient end product. Effective coordination of projects for clients getting their product or service online and in front of more potential consumers. Increased client revenue streams by up to 300%.   
+          "
+            />
 
+            <Experience
+              className="description"
+              startYear={2014}
+              endYear={2017}
+              jobName="Affiliate Crossing | Co-founder/COO"
+              jobDescription="Successfully managed staff and workflows and developed processes and procedures that improved efficiency. Configuring SAS as needed for cost savings and to accomplish more tasks. Increased our clients' revenues by approximately 300%."
+            />
 
-       <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <hr style={{ borderTop: "3px solid #791dc1" }} />
+
+            <h3>Education</h3>
             <Education
+              className="schoolInfo"
               startYear={2019}
               endYear={2019}
               schoolName="The University of Richmond"
@@ -88,6 +106,7 @@ class Resume extends Component {
             />
 
             <Education
+              className="schoolInfo"
               startYear={1996}
               endYear={2000}
               schoolName="Hampden-Sydney College"
@@ -98,9 +117,6 @@ class Resume extends Component {
               "
             />
             <hr style={{ borderTop: "3px solid #791dc1" }} />
-
-            
-
           </Cell>
         </Grid>
       </div>
