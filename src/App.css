@@ -140,4 +140,20 @@
 .resume-right-col {
   background: #27221f;
   color: whitesmoke;
+  padding: 2em;
+}
+
+.resume-right-col h2,
+h3,
+h4,
+h5 {
+  color: whitesmoke;
+}
+
+.resAvatar {
+  padding-top: 50px;
+}
+
+.resName {
+  padding-top: 20px;
 }
