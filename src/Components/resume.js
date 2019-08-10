@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
@@ -18,13 +18,18 @@ class Resume extends Component {
                 className="resAvatar"
               />
             </div>
-
-            <h3 className="resName" style={{ paddingTop: "2em" }}>
+            <h3
+              className="resName"
+              style={{ paddingTop: "2em", color: "grey" }}
+            >
               Christian B. Kautz-Scanavy
             </h3>
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <p className="brandInfo">
+            <p
+              className="
+            brandInfo"
+            >
               Team-oriented Web Developer with a background in digital marketing
               and customer acquisition, with Full-Stack Certification from the
               University of Richmond. Skilled in digital marketing tracking
@@ -35,18 +40,18 @@ class Resume extends Component {
               understand manner.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h5>Phone</h5>
-            <p>(804) 357-1353</p>
-            <h5>Email</h5>
-            <p>chris.kautz@gmail.com</p>
-            <h5>Website</h5>
-            <p>chrisks.com</p>
+            <h5>Phone:</h5>
+            <p className="contactInfo">(804) 357-1353</p>
+            <h5>Email:</h5>
+            <p className="contactInfo">chris.kautz@gmail.com</p>
+            <h5>Website:</h5>
+            <p className="contactInfo">chrisks.com</p>
           </Cell>
 
           <Cell className="resume-right-col" col={8}>
             <h2>Skills</h2>
 
-            <h5>
+            <h5 className="resSkills">
               Node.Js | Express | Sequelize | JavaScript | jQuery | React | GIT
               | GitHub | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS |
               Bootstrap | Media Queries | APIs | Microsoft Suite | Heroku |
@@ -62,7 +67,7 @@ class Resume extends Component {
               className="description"
               startYear={2018}
               endYear={2019}
-              jobName="-One Crooked Tree | Co-founder/COO "
+              jobName="One Crooked Tree | Co-founder/COO "
               jobDescription="Successfully managed the day to day operations of a digital agency including clients’ projects and 
           the operation of multiple SAS’s. Additionally, utilized Google Analytics and Tag Manager implementation/analysis for client 
           base."

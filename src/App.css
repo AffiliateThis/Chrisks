@@ -162,6 +162,20 @@ h5 {
   font-size: 17px;
 }
 
+.contactInfo {
+  font-size: 17px;
+  color: black;
+}
+
+h5 {
+  color: grey;
+}
+
 p {
   font-size: 18px;
+}
+
+.description {
+  font-size: 17px;
+  color: red;
 }
