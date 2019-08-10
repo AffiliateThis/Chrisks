@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/chrisks/static/css/main.b77aa074.chunk.css",
+    "main.js": "/chrisks/static/js/main.6634d0e9.chunk.js",
+    "main.js.map": "/chrisks/static/js/main.6634d0e9.chunk.js.map",
+    "runtime~main.js": "/chrisks/static/js/runtime~main.5e65e25c.js",
+    "runtime~main.js.map": "/chrisks/static/js/runtime~main.5e65e25c.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/chrisks/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.43d61a1c.chunk.js": "/chrisks/static/js/2.43d61a1c.chunk.js",
+    "static/js/2.43d61a1c.chunk.js.map": "/chrisks/static/js/2.43d61a1c.chunk.js.map",
+    "index.html": "/chrisks/index.html",
+    "precache-manifest.1fff6e0294c9d438cd7a3b7637c5fd9a.js": "/chrisks/precache-manifest.1fff6e0294c9d438cd7a3b7637c5fd9a.js",
+    "service-worker.js": "/chrisks/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/chrisks/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.b77aa074.chunk.css.map": "/chrisks/static/css/main.b77aa074.chunk.css.map"
+  }
+}
