@@ -1,6 +1,9 @@
 {
-  "name": "chrisks",
+  "name": "chris",
   "version": "0.1.0",
+  "engines": {
+    "node": "11.5.0"
+  },
   "private": true,
   "homepage": "https://affiliatethis.github.io/chrisks/",
   "dependencies": {
