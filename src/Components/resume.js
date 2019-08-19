@@ -88,7 +88,6 @@ class Resume extends Component {
               listItem2="- Utilized Project Management to get assets built for clients and internal project site build-outs providing a more streamlined and efficient end product. 
               "
               listItem3="- Engineered validation synchronization for an internal insurance site"
-              
             />
 
             <Experience
