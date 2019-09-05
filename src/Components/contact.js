@@ -1,5 +1,23 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import {
+  Grid,
+  Cell,
+  Button,
+  List,
+  ListItem,
+  ListItemContent,
+  Textfield,
+  Row
+} from "react-mdl";
+
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBBtn,
+  MDBIcon,
+  MDBInput
+} from "mdbreact";
 
 class Contact extends Component {
   render() {
@@ -43,10 +61,11 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    chris.kautz@gmail.com
+                    c@chrisks.com
                   </ListItemContent>
                 </ListItem>
               </List>
+              
             </div>
           </Cell>
         </Grid>
